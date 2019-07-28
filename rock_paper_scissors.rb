@@ -12,7 +12,7 @@ class Player
     when "human"
       answer = nil
       loop do
-        puts "Choose between rock, paper, scissors."
+        puts "Choose between r(ock), p(aper), s(cissors)."
         answer = gets.chomp
         break if %w(r p s).include?(answer)
         "Invalid choice"
